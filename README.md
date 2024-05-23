@@ -3,9 +3,9 @@
 ## Sujet
 
 1. Sur la liste des livres, afficher la date au format `Mardi 30 octobre 1990` avec un pipe
-2. Dans le service `BookService` ajouter une méthode `addBook(book: Book): Book` qui va rajouter un livre dans la propriété `books`
+2. Dans le service `BookService` ajouter une méthode `addBook(book: Book): void` qui va rajouter un livre dans la propriété `books`
 3. Rajouter un composant `BookForm` qui :
-    - appeler dans `app.component.html`
+    - sera appeler dans `app.component.html`
     - contiendra un champ pour chaque attribut d'un livre (à l'exception de `id`)
     - tous les champs sont obligatoires (utiliser un validator angular)
     - à la validation devra faire remonter au composant parent qui se charger de l'ajouter à la liste de livres via le service
